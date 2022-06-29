@@ -1,0 +1,24 @@
+{
+  "name": "RetoManuable",
+  "version": "1.0.0",
+  "description": "Objetivo: Crear una librería (npm) en node que permita conectarse al webservice de FedEx\r para obtener las tarifas de envíos.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "fedex": "node src/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZenenAvila/RetoManuable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZenenAvila/RetoManuable/issues"
+  },
+  "homepage": "https://github.com/ZenenAvila/RetoManuable#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  }
+}
