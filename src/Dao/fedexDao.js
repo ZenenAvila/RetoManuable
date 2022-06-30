@@ -1,9 +1,9 @@
 import fetch from "node-fetch";
-import { body, options, url } from "./dataFedex.js";
+import { body, options, url } from "./fedexData.js";
 
-export const fedexPost = async () => {
+export const fedexPost = async (credentials, quote_params) => {
   try {
-    options.body = body;
+    options.body = body(credentials, quote_params);
     let responseApi = await fetch(url, options)
       .then((response) => {
         return response.text();
