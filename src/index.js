@@ -1,31 +1,5 @@
-//import { fedex } from "./Routes/fedexRoutes.js";
 import { RatesFedex } from "./Class/fedexClass.js";
 
-// const fedexs = async () => {
-//   try {
-//     class Rate {
-//       constructor() {
-//         this.nombre = "zenen";
-//       }
-//       get(Hola) {
-//         console.log("get " + Hola);
-//       }
-//     }
-//   } catch (error) {
-//     console.log("index: " + error);
-//   }
-// };
-
-// fedexs.Rate.get("hola");
-// fedex.get();
-
-// const fedexs = async () => {
-//   try {
-//     ra
-//   } catch (error) {
-//     console.log("fedex: " + error);
-//   }
-// };
 export const fedex = {
   Rates: new RatesFedex(),
 };
@@ -48,7 +22,7 @@ export const fedex = {
 //     width: 28.0,
 //     height: 46.0,
 //     distance_unit: "cm",
-//     weigth: 6.5,
+//     weigth: 6.544444,
 //     mass_unit: "kg",
 //   },
 // };
